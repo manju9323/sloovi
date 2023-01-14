@@ -1,0 +1,173 @@
+.search{
+    width:100%;
+    padding: 10px;
+    cursor: pointer;
+   
+
+}
+.sear{
+    width: 98%;
+    height: 20px;
+   border:1px solid rgb(224, 213, 213); 
+}
+.mains{
+    margin-left: 10px;
+    
+    height:fit-content;
+    width: 300px;
+    border:1px solid rgb(241, 220, 220);
+    
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left:5px;
+    border-bottom:1px solid gray;
+}
+.addicon{
+    display: flex;
+   cursor: pointer;
+   border-left: 1px solid gray;
+}
+.body{
+    display: flex;
+    gap:5px;
+    flex-direction: column;
+    background-color: #EDF7FC;
+    padding: 10px 7px;
+    
+}
+.save{
+    background-color: green;
+    border:none;
+    color:white;
+   padding:5px 10px;
+   border-radius: 3px;
+   display: flex;
+   flex-direction: column;
+   cursor: pointer;
+}
+.cancel{
+    border:none;
+    cursor: pointer;
+    background-color: #EDF7FC;
+    padding:5px 10px;
+    border-radius: 3px;
+}
+.cs{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+    
+}
+.ds{
+    display: flex;
+    cursor: pointer;
+    gap:4px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.tex{
+    cursor: pointer;
+    width:279px;
+}
+.dat{cursor: pointer;
+ width: 50%;
+
+}
+.tim{
+width: 50%;
+}
+.da{cursor: pointer;
+    width:135px;
+    height:20px;
+    
+}
+.ti{cursor: pointer;
+    width: 135px;
+    height:20px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    height: 60vh;
+    position: relative;
+
+}
+.selection{
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    width: 286px;
+    height: 24px;
+    background-color: white;
+    color: black;
+    border: 1px solid rgb(145, 136, 136);
+}
+.map{
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    padding: 5px;
+    cursor: pointer;
+}
+.itrate{
+    position: absolute;
+    width: 286px;
+}
+.map:hover{
+    background-color: aliceblue;
+}
+.se{
+    padding-left: 5px;
+}
+.i{
+    border:1px solid gray;
+    cursor: pointer;
+}
+.tasks{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 5px;
+    background-color:  rgb(202, 236, 236);
+}
+.tasks:hover{
+    background-color:rgb(242, 250, 247);
+}
+.account{
+    display: flex;
+    align-items: center;
+
+}
+.follow{
+    display: flex;
+    flex-direction: column;
+}
+.red{
+    color: rgb(224, 21, 21);
+    font-weight: 400;
+}
+.spam{
+    font-size: small;
+    padding: 0px;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    gap:2px;
+}
+.avatar{
+    height:42px;
+    width: 42px;
+}
+.del{
+    display: flex;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+.butt{
+    display: flex;
+}
